@@ -200,3 +200,32 @@ nav button{
     gap: 1rem;
     margin-top: 1.2rem;
 }
+
+.post_author-avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: var(--card-border-radius-3);
+    overflow: hidden;
+}
+/*****************************FEATURED***************************************/
+featured {
+margin-top: 8rem;
+}
+.featured_container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 4rem;
+}
+.featured .post_thumbnail{
+height: fit-content;
+}
+
+/*************************************************** POSTS **********************************/
+.posts_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8rem;
+    margin-bottom: 8rem;
+}
+
+
